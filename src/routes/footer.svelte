@@ -11,19 +11,19 @@
 
 				<div class="w-20% md:w-1/2 px-4">
 					<div class="flex space-x-4 mt-6 pl-4 justify-end">
-						<a href="#" target="_blank" rel="noopener noreferrer">
+						<a href="https://clvntan.work" target="_blank" rel="noopener noreferrer">
 							<!-- Facebook Icon -->
 							<img src="/facebook.svg" alt="Facebook" class="w-7 h-7" />
 						</a>
-						<a href="#" target="_blank" rel="noopener noreferrer">
+						<a href="https://instagram.com/hideyourtail" target="_blank" rel="noopener noreferrer">
 							<!-- Instagram Icon -->
 							<img src="/instagram.svg" alt="Instagram" class="w-7 h-7" />
 						</a>
-						<a href="#" target="_blank" rel="noopener noreferrer">
+						<a href="https://pinterest.com/clvntan" target="_blank" rel="noopener noreferrer">
 							<!-- Pinterest Icon -->
 							<img src="/pinterest.svg" alt="Pinterest" class="w-7 h-7" />
 						</a>
-						<a href="#" target="_blank" rel="noopener noreferrer">
+						<a href="github.com/clvntan" target="_blank" rel="noopener noreferrer">
 							<!-- Github Icon -->
 							<img src="/github.svg" alt="Github" class="w-7 h-7" />
 						</a>

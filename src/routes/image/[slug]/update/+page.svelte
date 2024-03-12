@@ -68,56 +68,6 @@
 <div class="hero min-h-screen bg-gradient-to-r from-cyan-50 to-blue-50 h-full py-64">
 	<!-- Header -->
 	<h1 class="absolute top-56 text-5xl font-thin text-center z-10">Update Image</h1>
-<<<<<<< HEAD
-		<!-- Form Container -->
-		<div class="card lg:w-5/12 shadow-2xl bg-base-100">
-			<div class="card-body">
-				<!-- Image Update Form -->
-				<form on:submit|preventDefault={updateImage} class="w-full">
-					<div class="form-control">
-						<!-- File Input for Image -->
-						<div class="flex flex-col lg:flex-row">
-							<input value={data.image.url} type="file" name="file" class="file-input file-input-bordered w-full max-w-xs" accept="image/"/>
-							<div class="w-full lg:w-1/2"></div>
-						</div>
-						<!-- Price Input -->
-						<div class="form-control w-full">
-							<label class="label" for="price">
-								<span class="label-text">Price</span>
-							</label>
-							<input value={data.image.price} type="text" name="price" class="input input-bordered w-full">
-						</div>
-						<!-- Title Input -->
-						<div class="form-control w-full">
-							<label class="label" for="title">
-								<span class="label-text">Title</span>
-							</label>
-							<input value={data.image.title} type="text" name="title" placeholder="Enter Title" class="input input-bordered w-full">
-						</div>
-						<!-- Description Input -->
-						<div class="form-control w-full">
-							<label class="label" for="description">
-								<span class="label-text">Description</span>
-							</label>
-							<textarea value={data.image.description} name="description" class="textarea textarea-bordered" placeholder="Enter Description"></textarea>
-						</div>
-						<!-- Update Button -->
-						<div class="form-control w-full mt-4">
-							<!-- Conditional Rendering based on clicked status -->
-							{#if clicked}
-        						<button class="btn btn-md" type="submit">
-            						<span class="loading loading-spinner hover:btn-accent"></span>
-            						Update
-        						</button>
-        					{:else}
-        						<button class="btn bg-gradient-to-r from-green-400 to-cyan-400 text-slate-600" type="submit">Update</button>
-    						{/if}
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-=======
 	<!-- Form Container -->
 	<div class="card lg:w-5/12 shadow-2xl bg-base-100">
 		<div class="card-body">
@@ -191,5 +141,4 @@
 			</form>
 		</div>
 	</div>
->>>>>>> 510c428 (Revised form errors)
 </div>

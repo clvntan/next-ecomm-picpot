@@ -117,11 +117,6 @@
                   </div>
                 </div>
             </div> -->
-<<<<<<< HEAD
-			
-=======
-
->>>>>>> 510c428 (Revised form errors)
 					<!-- Check if user is logged in -->
 					{#if $logIn}
 						<!-- If logged in, display button to upload image -->
@@ -131,62 +126,6 @@
 							Upload Image</button
 						>
 						<div data-theme="light">
-<<<<<<< HEAD
-						<dialog id="my_modal_2" class="modal cursor-pointer">
-							<div class="modal-box w-11/12 max-w-5xl">
-								<form on:submit|preventDefault={uploadImage} class="w-full">
-									<div class="flex flex-col lg:flex-row">
-										<input
-											type="file"
-											name="file"
-											class="file-input file-input-bordered w-full max-w-xs"
-											accept="image/"
-										/>
-										<div class="w-full lg:w-1/2"></div>
-									</div>
-									<div class="form-control w-full">
-										<label class="label" for="price">
-											<span class="label-text">Price</span>
-										</label>
-										<input
-											type="text"
-											name="price"
-											placeholder="00.00"
-											class="input input-bordered w-full"
-										/>
-									</div>
-									<div class="form-control w-full">
-										<label class="label" for="title">
-											<span class="label-text">Title</span>
-										</label>
-										<input
-											type="text"
-											name="title"
-											placeholder="Sunset"
-											class="input input-bordered w-full"
-										/>
-									</div>
-									<div class="form-control w-full">
-										<label class="label" for="description">
-											<span class="label-text">Description</span>
-										</label>
-										<textarea
-											name="description"
-											class="textarea textarea-bordered"
-											placeholder="Beautiful Sunset in San Marino"
-										></textarea>
-									</div>
-									<div class="form-control w-full mt-4">
-										<button class="btn bg-gradient-to-r from-green-400 to-cyan-400 text-slate-600" onclick="my_modal_2.close()">Upload</button>
-									</div>
-								</form>
-							</div>
-							<form method="dialog" class="modal-backdrop">
-								<button>close</button>
-							</form>
-						</dialog>
-					</div>
-=======
 							<dialog id="my_modal_2" class="modal cursor-pointer">
 								<div class="modal-box w-11/12 max-w-5xl">
 									<form on:submit|preventDefault={uploadImage} class="w-full">
@@ -244,7 +183,6 @@
 								</form>
 							</dialog>
 						</div>
->>>>>>> 510c428 (Revised form errors)
 					{:else}
 						<!-- If not logged in, display button to create account with login action -->
 						<button class="btn btn-ghost mr-4" on:click={signUp}>Sign Up</button>
